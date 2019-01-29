@@ -2,6 +2,10 @@
   box-sizing: border-box;
   margin: 0;
 }
+
+body{
+  background-color: #f5f8fa;
+}
 .container{
   width: 100vw;
   margin: auto;
@@ -10,8 +14,8 @@
 
 .navbar{
   width: 80%;
-  height: 100px;
-  line-height: 100px;
+  height: 80px;
+  line-height: 80px;
   margin: auto;
   position: relative;
 }
@@ -193,3 +197,137 @@ main{
   color: #33475b;
   margin-bottom: 40px;
 }
+.libri{
+  width: 200px;
+}
+.sin{
+  display: inline-block;
+ float: left;
+ width: 40%;
+ text-align: center;
+ margin-left: 35px;
+
+}
+
+.link1{
+  display:inline-block;
+  text-align: center;
+  background-color: coral;
+    border-radius: 2px;
+    font-size: 15px;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 20px;
+
+
+}
+
+.des{
+  display: inline-block;
+  float: left;
+  width:50%;
+  text-align: left;
+  margin-left: 30px;
+
+
+}
+.p1{
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.home1{
+  font-size: 22px;
+  color:#33475b;
+
+}
+.p2{
+ text-align: left;
+ color: #33475b;
+ font-size: 20px;
+ margin-top: 20px;
+
+}
+hr{
+    display: block;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+    margin-top: 10px;
+}
+
+ul{
+  margin-top: 20px;
+  text-align: left;
+  margin-left: -40px;
+}
+li{
+  display: inline-block;
+  padding:10px;
+}
+
+.fa-check{
+  background-color: coral;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 10px;
+}
+
+.contenuto{
+  width:80vw;
+  position: relative;
+  padding: 50px;
+  border: 1px solid #cbd6e2;
+  background-color: white;
+
+}
+#c2{
+  background-color: #f5f8fa;
+  border: none;
+ position: relative;
+ width:80vw;
+ 
+}
+
+.contenuto:after{
+  clear: both;
+  content: '';
+  display: table;
+}
+.contenuto > div img{
+  height:150px;
+
+}
+.rot{
+  display: inline-block;
+  float: left;
+  width:28.7%;
+  text-align: center;
+  padding: 20px;
+border: 1px solid #cbd6e2;;
+margin:20px;
+border-radius: 5px;
+background-color: white;
+}
+
+.lista2{
+  text-align: center;
+}
+
+.rot li {
+    margin: 10px 0;
+    color: #33475b;
+}
+
+.rot li i {
+    color: #ff7a59;
+    margin-right: 20px;
+}
+
+.rot span {
+    display: block;
+    margin: 20px 0;
+    font-size: 20px;
+    text-align: center;}
