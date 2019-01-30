@@ -288,7 +288,7 @@ li{
   border: none;
  position: relative;
  width:80vw;
- 
+
 }
 
 .contenuto:after{
@@ -316,18 +316,120 @@ background-color: white;
   text-align: center;
 }
 
-.rot li {
-    margin: 10px 0;
-    color: #33475b;
+.grid {
+    padding: 150px 0;
+    width: 100%;
+    background: linear-gradient(to right, #09A7BF,#00BDA5);
 }
-
-.rot li i {
-    color: #ff7a59;
-    margin-right: 20px;
+.grid-title {
+    padding: 0 200px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: #fff;
 }
-
-.rot span {
+.grid-title h3 {
+    font-size: 33px;
+    margin-bottom: 20px;
+}
+.grid-title p {
+    font-size: 18px;
+    margin-bottom: 100px;
+}
+.grid-table {
+    width: 100%;
+}
+.grid-table:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.grid-item {
+    position: relative;
+    float: left;
+    width: 25%;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    height: 250px;
+    color: white;
+}
+.grid-item:nth-child(n + 5) {
+    border-bottom: 0;
+}
+.grid-item:nth-child(4), .grid-item:nth-child(8) {
+    border-right: 0;
+}
+.grid-item img {
     display: block;
-    margin: 20px 0;
-    font-size: 20px;
-    text-align: center;}
+    margin: 0 auto 10px;
+    width: 20%;
+}
+.grid-item-title {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 35px;
+}
+.grid-item-title:after {
+    content: '+';
+    vertical-align: middle;
+    margin-left: 6px;
+    font-size: 19px;
+}
+.grid-item-small {
+    display: block;
+    text-align: center;
+}
+.grid-item > div {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.part {
+    padding: 100px 0;
+    width: 100%;
+}
+.part:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.partners {
+    width: 100%;
+    padding: 0 50px;
+    background: blue;
+}
+.partners-left {
+    float: left;
+    height: 100%;
+    width: 35%;
+}
+
+.partners-right{
+  float: right;
+  width: 55%;
+  height: 100%;
+}
+.partners-left strong {
+    font-size: 35px;
+    margin-bottom: 12px;
+}
+.partners-left p {
+    margin-top: 21px;
+}
+.partners-right img {
+    display: block;
+    float: left;
+    margin: 20px;
+    width: calc((100% / 4) - 40px);
+    height: auto;
+}
+
+/* .container4 {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+} */
